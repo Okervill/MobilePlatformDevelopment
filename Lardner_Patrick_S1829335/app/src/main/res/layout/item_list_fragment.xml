@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Patrick Lardner S1829335 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/filter_label"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/filter_input"
+        android:gravity="center"
+        android:text="@string/filter_label"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/filter_input"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:inputType="text" />
+
+    <DatePicker
+        android:id="@+id/searchDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filter_label"
+        android:datePickerMode="spinner" />
+
+    <ListView
+        android:id="@+id/itemDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchDate"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

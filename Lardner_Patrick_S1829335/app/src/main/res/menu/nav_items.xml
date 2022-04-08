@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Patrick Lardner S1829335 -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_incidents"
+        android:title="@string/incidents" />
+    <item
+        android:id="@+id/nav_roadworks"
+        android:title="@string/roadworks" />
+    <item
+        android:id="@+id/nav_planned_roadworks"
+        android:title="@string/planned_roadworks" />
+</menu>

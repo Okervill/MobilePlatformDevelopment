@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Patrick Lardner S1829335 -->
+
+<resources>
+    <string name="app_name">MPD</string>
+    <string name="welcome_message">Welcome to Mobile Platform Development Assignment 2021–2022</string>
+    <string name="displayHeader">Traffic Scotland Data</string>
+    <string name="currentIncidentsButton">Current Incidents</string>
+    <string name="roadworksButton">Current Roadworks</string>
+    <string name="plannedRoadworksButton">Planned Roadworks</string>
+    <string name="home">Home</string>
+    <string name="incidents">Incidents</string>
+    <string name="roadworks">Roadworks</string>
+    <string name="planned_roadworks">Planned Roadworks</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="filter_label">Filter: </string>
+</resources>

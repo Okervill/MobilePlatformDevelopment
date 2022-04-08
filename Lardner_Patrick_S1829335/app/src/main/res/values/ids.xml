@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Patrick Lardner S1829335 -->
+
+<resources>
+    <item name="textview" type="id" />
+</resources>
